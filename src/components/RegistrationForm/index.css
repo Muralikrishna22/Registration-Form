@@ -1,0 +1,90 @@
+.registration-container {
+  height: 100vh;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registration-heading {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ea580c;
+  margin-bottom: 30px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+input {
+  height: 35px;
+  width: 200px;
+  outline: none;
+  color: #9aa5b1;
+  font-size: 15px;
+  border: 1px #9aa5b1 solid;
+  border-radius: 4px;
+  padding-left: 8px;
+  margin-bottom: 0px;
+}
+
+.input-error {
+  border-color: #ff0b37;
+  background-color: #fef2f4;
+}
+
+.submit-btn {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #ea580c;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.name-error {
+  color: #ff0b37;
+  margin-top: 1px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.success-text {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #475569;
+  font-weight: 400;
+}
+
+/* Hex: #ea580c
+Hex: #475569
+Hex: #cbd2d9
+Hex: #9aa5b1
+Hex: #ffffff
+Hex: #fef2f4
+Hex: #ff0b37 */
